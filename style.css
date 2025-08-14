@@ -1,0 +1,169 @@
+#header h1 {
+    color: rgb(222, 221, 221);
+    font-size: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+
+#index {
+    margin: 0 auto;
+    color: rgb(233, 232, 232);
+
+    background-image: linear-gradient(hsl(18, 69%, 46%), hsl(18, 71%, 34%));
+    border-radius: 4px;
+}
+
+#index td a {
+    margin: 0 auto;
+    font-size: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 22px;
+    color: lightblue;
+}
+
+#index td a:hover {
+    text-decoration: none;
+}
+
+.responsive-image {
+    margin: 0 auto;
+    margin-top: 20px;
+    outline: rgb(218, 68, 14);
+    outline-width: 3px;
+    outline-style: solid;
+    border-radius: 8px;
+}
+
+#graphics-1 img {
+    width: 70%;
+}
+
+#graphics-2 img {
+    width: 80%;
+}
+
+#graphics-3 img {
+    width: 62%;
+}
+
+@media screen and (max-width: 768px) {
+    #header h1 {
+        color: rgb(222, 221, 221);
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 10px;
+    }
+
+    body {
+        font: sans-serif;
+        font-size: 12px;
+
+        /*background-image: linear-gradient(#577590, #577590, #D78A76);*/
+        background-color: blue;
+
+        text-align: center !important;
+        align-items: center !important;
+        align-content: center !important;
+    }
+
+    .header-text {
+        color: rgb(222, 221, 221);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+
+    .p-text {
+        color: rgb(253, 213, 213);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 0.9em;
+        line-height: 1.5;
+    }
+
+    #header, #about, #events, #donate {
+        margin: auto;
+        width: 50%;
+        padding: 20px;
+        margin-top: 20px;
+        background-image: linear-gradient(hsl(18, 73%, 47%), hsl(18, 71%, 38%));
+        border-radius: 8px;
+        box-shadow: 0 8px 18px rgba(4, 4, 4, 0.1);
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font: sans-serif;
+        font-size: 12px;
+
+        /*background-image: linear-gradient(#577590, #577590, #D78A76);*/
+        background-color: red;
+
+        text-align: center !important;
+        align-items: center !important;
+        align-content: center !important;
+    }
+
+    .header-text {
+        color: rgb(222, 221, 221);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .p-text {
+        color: rgb(253, 213, 213);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 0.9em;
+        line-height: 1.5;
+    }
+
+    #header, #about, #events, #donate {
+        margin: auto;
+        width: 50%;
+        padding: 20px;
+        margin-top: 20px;
+        background-image: linear-gradient(hsl(18, 73%, 47%), hsl(18, 71%, 38%));
+        border-radius: 8px;
+        box-shadow: 0 8px 18px rgba(4, 4, 4, 0.1);
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    body {
+        font: sans-serif;
+        font-size: 20px;
+
+        /*background-image: linear-gradient(#577590, #577590, #D78A76);*/
+        background-color: green;
+
+        text-align: center !important;
+        align-items: center !important;
+        align-content: center !important;
+    }
+
+    .header-text {
+        color: rgb(222, 221, 221);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .p-text {
+        color: rgb(253, 213, 213);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 0.9em;
+        line-height: 1.5;
+    }
+
+    #header, #about, #events, #donate {
+        margin: auto;
+        width: 50%;
+        padding: 20px;
+        margin-top: 20px;
+        background-image: linear-gradient(hsl(18, 73%, 47%), hsl(18, 71%, 38%));
+        border-radius: 8px;
+        box-shadow: 0 8px 18px rgba(4, 4, 4, 0.1);
+    }
+}
